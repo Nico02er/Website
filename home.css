@@ -1,0 +1,24 @@
+
+body {
+    background-image: url('pictures/laptop.jpg');
+    background-repeat: no-repeat;
+    background-size: 1900px;
+    background-position: center;
+    height: 1000px;    
+}
+
+#Liste {
+    
+    margin-left: 550px;
+    margin-bottom: 50px;
+    margin-right:10px;
+    margin-top: 200px;
+    
+}
+#Uhr {
+  text-align:right;
+}
+
+h1 {
+  font-family: arial;
+}
