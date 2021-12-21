@@ -1,3 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link href="design.css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+      <h1>Anmelden</h1>
+      <form method="POST">
+	<input type="text" name="username" class="text" autocomplete="off"
+	required placeholder="Benutzername"><br>
+	<input class="text" type="password" name="password" required placeholder="Passwort">
+	</br>
+	<br>
+	<input type="Submit" name="submit" id="sub">
+	</br>
+      </form>
+    </div>
+</body>
+</html>
+
 <?php
     mysql_connect("localhost","root","123");
     mysql_selectdb("simplelogin");
